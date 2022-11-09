@@ -1,0 +1,9 @@
+.car_wrapper{
+    background-color: rgb(235, 235, 235);
+    height: calc(100vh - 60px);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

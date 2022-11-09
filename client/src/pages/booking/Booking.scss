@@ -1,0 +1,39 @@
+.booking_wrapper{
+    display: flex;
+    column-gap: 1rem;
+    background-color: rgb(235, 235, 235);
+    height: calc(100vh - 60px);
+
+    .left_sec{
+        width: 60%;
+        .image_container{
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .description{
+            padding-block: 10px;
+            font-size: 20px;
+        }
+    }
+    .right_sec{
+        h1{
+            font-size: 40px;
+        }
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .booking_wrapper{
+        flex-direction: column;
+    
+    .left_sec{
+        width: 100%;
+        .description{
+            display: none;
+        }
+    }
+}
+}

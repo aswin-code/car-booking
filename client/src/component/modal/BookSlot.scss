@@ -1,0 +1,25 @@
+.modal_content_wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        padding-bottom: 10px;
+    }
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .options{
+        .my-select{
+            padding: 1rem;
+        }
+        button{
+            padding: 1rem;
+        }
+    }
+
+}
